@@ -4,7 +4,6 @@ import torch.optim as optim
 from torch.autograd import Variable
 from torch.utils.data import DataLoader,Dataset
 import matplotlib.pyplot as plt
-import cfg
 import random
 class Dataset_(Dataset):
     def __init__(self, data):
